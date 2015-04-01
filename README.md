@@ -1,7 +1,5 @@
 # RHAnimatedTitleView
 
-===
-
 Animate two titles when scrolling.
 
 See in action
