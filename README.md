@@ -8,8 +8,6 @@ See in action
 
 ##How to use it?
 
-===
-
 Create a new view.
 
 	let titleView = RHAnimatedTitleView(oldTitle: "AAAA", newTitle: "BBBB")
