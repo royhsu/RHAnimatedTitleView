@@ -8,7 +8,7 @@ See in action
 
 ##How to use it?
 
-Create a new view.
+Create a custom title view by using designated initializer provided by RHAnimatedTitleView.
 
 	let titleView = RHAnimatedTitleView(oldTitle: "AAAA", newTitle: "BBBB")
 
