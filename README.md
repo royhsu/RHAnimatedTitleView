@@ -20,10 +20,16 @@ You can set color of title you want
 
 (Default is black.)
 
-	titleView?.titleColor = UIColor.redColor()
+	titleView.titleColor = UIColor.redColor()
 
 Disable fade in/out transition is easy
 
 (Default is true.)
 
-	titleView?.transition = false
+	titleView.transition = false
+	
+Change content offset of custom title view to trigger move action
+
+(Note: the maximum distance that custom title view can move is same as the height of custom title view itself)
+
+	titleView.contentOffset = CGPointMake(0.0, y)
